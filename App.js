@@ -6,6 +6,7 @@ import TabNavigation from "./app/navigations/TabNavigation";
 export default function App() {
   return (
     <View style={styles.container}>
+      <Text style={styles.headTab}></Text>
       <NavigationContainer>
         <TabNavigation />
       </NavigationContainer>
@@ -19,5 +20,9 @@ const styles = StyleSheet.create({
     backgroundColor: "#fff",
     // alignItems: "center",
     // justifyContent: "center",
+  },
+  headTab: {
+    // backgroundColor: "lightgray",
+    height: 40,
   },
 });

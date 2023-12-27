@@ -14,10 +14,10 @@ export default function Home() {
 
 const styles = StyleSheet.create({
   container: {
-    // padding: 160,
-    flex: 1,
+    padding: 10,
+    // flex: 1,
     // backgroundColor: "red",
-    alignItems: "center",
-    justifyContent: "center",
+    // alignItems: "center",
+    // justifyContent: "center",
   },
 });
